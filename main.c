@@ -43,10 +43,10 @@ int main(int argc, char *argv[]) {
         return 1;
     }
 	
-	for (int i = 0; i < n; i++) {
+    for (int i = 0; i < n; i++) {
         printf("%d ", arr[i]);
     }
-	printf("\n%d", sign_changes);
+    printf("\n%d", sign_changes);
 	
     for (int i = 0; i < n; i++) {
         fprintf(file, "%d ", arr[i]);
